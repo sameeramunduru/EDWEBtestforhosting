@@ -146,3 +146,42 @@ h2 {
     margin: 0;
     color: #333;
 }
+.search-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; /* Add some spacing around the search bar */
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px; /* Limit the width of the search bar */
+    background-color: #fff;
+  }
+  
+  .search-input {
+    flex: 1; /* Allow the input field to grow */
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    outline: none; /* Remove focus border */
+  }
+  
+  .search-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  
